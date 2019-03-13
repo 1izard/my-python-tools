@@ -20,7 +20,7 @@ def parse(argv):
     parser.add_argument('dirpath', type=str)
     parser.add_argument('-n', '--number', type=int, default=10, metavar='')
 
-    parsed_argv = parser.parse_args(argv[:])
+    parsed_argv = parser.parse_args(argv)
     return parsed_argv
 
 
