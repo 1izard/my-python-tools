@@ -1,5 +1,5 @@
 import unittest
-import mktxtfs
+from sourcecode import mktxtfs
 import tempfile
 import os
 import glob
