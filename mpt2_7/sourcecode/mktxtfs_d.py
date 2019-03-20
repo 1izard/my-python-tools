@@ -1,11 +1,21 @@
+# -*- encode: utf-8 -*-
+
+__version__ = '0.0.0'
+__date__ = '20 March 2019'
+
 '''
-$ python mktxtfs.py txt1
+$ python mktxtfs_d.py txt1
 current_directory
 +- txt1
-    +- txt1_1.txt
-    +- txt1_2.txt
+    +- txt1_001.txt
+    +- txt1_002.txt
     ...
-    +- txt1_10.txt
+    +- txt1_010.txt
+    +- txt1_011.txt
+    ...
+    +- txt1_100.txt
+    +- txt1_101.txt
+    ...
 '''
 
 

@@ -25,7 +25,6 @@ def sampling(src_dir, dst_dir, unit, step):
     sample_txts.extend()
 
 
-
 def main(args):
     parsed_args = parse(args)
     sampling(parsed_args.src_dir, parsed_args.dst_dir, parsed_args.unit, parsed_args.step)
